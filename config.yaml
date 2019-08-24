@@ -1,5 +1,10 @@
 config:
   BinderHub:
     use_registry: true
-    image_prefix: xxx/yy-
-    hub_url: https://xxx.xxx.com
+    image_prefix: xxx/dl-
+    hub_url: https://xx.xx.com
+    https:
+      hosts:
+        - xxx.xxx.com
+      letsencrypt:
+        contactEmail: xxx@gmail.com
