@@ -2,8 +2,10 @@ config:
   BinderHub:
     use_registry: true
     image_prefix: xxx/dl-
+    #jupyterhub url
     hub_url: https://xx.xx.com
     https:
+      #binderhub url
       hosts:
         - xxx.xxx.com
       letsencrypt:
